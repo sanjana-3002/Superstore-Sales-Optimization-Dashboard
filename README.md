@@ -38,8 +38,9 @@ Power BI, Power Query, DAX, Data Modeling (Star Schema), Retail Analytics
 	•	Correlation-based — product combos imply relationship, not causation.
 	•	Not live; refresh depends on connected data pipeline or manual update.
 
+## Author  
 
-✨ Author - 
-Sanjana Waghray — M.S. Data Science @ Illinois Tech Chicago
-🔗 sanjanawaghray.com￼
-“Turning retail chaos into clarity — one dashboard at a time.”
+**Sanjana Waghray** — M.S. Data Science @ Illinois Tech Chicago  
+🔗 [sanjanawaghray.com](https://sanjanawaghray.com)  
+
+> “I build systems that help machines learn to think — one token at a time.”  
