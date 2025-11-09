@@ -39,7 +39,7 @@ Power BI, Power Query, DAX, Data Modeling (Star Schema), Retail Analytics
 	•	Not live; refresh depends on connected data pipeline or manual update.
 
 
-✨ Author - ##Sanjana Waghray — M.S. Data Science @ Illinois Tech Chicago
+✨ Author - 
+Sanjana Waghray — M.S. Data Science @ Illinois Tech Chicago
 🔗 sanjanawaghray.com￼
-
 “Turning retail chaos into clarity — one dashboard at a time.”
