@@ -1,51 +1,45 @@
-# Superstore-Sales-Optimization-Dashboard
-Interactive Power BI report that analyzes sales and profitability to identify winning product bundles, optimize pricing/discounts, and guide shelf/placement decisions across categories, segments, and regions.
+## Superstore Sales Optimization Dashboard (Power BI)
 
-## 🚀 Overview
-
-- Goal: Reveal high-impact product bundles, pricing/discount levers, and placement opportunities to improve profit.
-  
-- Scope: Superstore orders across categories, segments, and regions with drill-downs to sub-category/product.
-  
-- Method: Power Query cleaning → star schema modeling → DAX measures → interactive cross-filter visuals.
-
-## 🔢 Data
-
-- Source: Superstore sales dataset (orders, products, customers, regions).
-  
-- Unit: Order-level transactions, aggregated to category/segment/region as needed.
-  
-- Notes: Normalize categories, create a Date table, handle missing/duplicates, ensure consistent data types.
-
-## 🧪 Method & Model
-
-- Aggregation: orders → category/segment/region/product summaries.
-  
-- Data model: fact Orders with dimension tables (Date, Product, Customer, Region).
-  
-- Measures (DAX): Sales, Profit, Profit Margin, Avg Discount, Qty, YoY/MTD.
-  
-- Analysis: co-purchase patterns for product combos; discount vs. profit impact; segment and regional contribution.
+A fully interactive Power BI dashboard built to uncover key levers that drive sales, profit, and customer behavior across categories, segments, and regions. This project transforms raw retail data into actionable business intelligence — revealing high-performing product bundles, optimal discount levels, and placement strategies to maximize profitability.
 
 
-## 📈 Results
+## What This Project Does
+	•	Analyzes order-level sales data across regions, categories, and customer segments.
+	•	Identifies high-impact product bundles and cross-sell opportunities.
+	•	Optimizes pricing and discount strategies based on profitability insights.
+	•	Visualizes KPIs with dynamic filters for segment, region, and time period.
+	•	Guides merchandising and placement decisions using data-driven insights.
 
-Highlights top product pairs for cross-sell, identifies discount ranges eroding margin, and surfaces underperforming categories/regions to target.
+## Workflow
+	1.	Data Preparation: Cleaned and transformed the Superstore dataset in Power Query.
+	2.	Data Modeling: Designed a star schema with fact and dimension tables (Orders, Date, Product, Customer, Region).
+	3.	DAX Measures: Built KPIs for Sales, Profit, Profit Margin, Discount, Quantity, and YoY/MTD trends.
+	4.	Visualization: Created interactive cross-filter visuals for category, segment, and regional deep dives.
+	5.	Insights: Added co-purchase and discount-profit analysis to highlight bundle performance and margin protection zones.
 
-## ✅ Dashboard Usage
+## Key Insights
+	•	Top product pairings reveal cross-sell potential in high-margin segments.
+	•	Identified discount thresholds where profit begins to erode.
+	•	Regional and category-level analysis highlights underperforming areas.
+	•	Enabled merchandising and pricing teams to act faster using visual drill-downs.
 
-- Merchandising: bundle frequent co-purchases in promos.
-  
-- Pricing: tune discounts to protect margin.
-  
-- Placement: prioritize shelf/landing spots for high-lift combos.
-  
-- Monitoring: track KPIs and filter by date/region/segment to guide actions.
+## Dashboard Applications
+	•	Merchandising: Bundle frequently co-purchased products.
+	•	Pricing: Adjust discount ranges to protect margins.
+	•	Placement: Prioritize visibility for high-lift categories.
+	•	Performance Tracking: Monitor KPIs by time, region, or customer type.
 
-## ⚠️ Limitations
+## Tech Stack
 
-- Based on sample retail data; results are illustrative.
-  
-- Combos indicate correlation, not causation.
-  
-- Not connected to real-time systems; refresh cadence depends on data pipeline.
+Power BI, Power Query, DAX, Data Modeling (Star Schema), Retail Analytics
+
+## Limitations
+	•	Based on sample Superstore data; insights are illustrative.
+	•	Correlation-based — product combos imply relationship, not causation.
+	•	Not live; refresh depends on connected data pipeline or manual update.
+
+
+✨ Author - ##Sanjana Waghray — M.S. Data Science @ Illinois Tech Chicago
+🔗 sanjanawaghray.com￼
+
+“Turning retail chaos into clarity — one dashboard at a time.”
